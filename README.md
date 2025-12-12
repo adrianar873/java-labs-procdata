@@ -4,6 +4,14 @@ Repositorio con varios ejercicios de Java, incluyendo acceso a MongoDB, manejo d
 
 ## Estructura de Carpetas
 
+### `aemet
+Ejercicio de manejo de estaciones meteorológicas de AEMET con MongoDB
+- **AemetConnection.java**: Obtiene el array de estaciones de la API AEMET.  
+- **MongoHandler.java**: conexión a MongoDB y almacenamiento de documentos.  
+- **App.java**: Probar funcionamiento del programa.  
+- **Main.java**: Punto de entrada que ejecuta la aplicación.
+
+
 ### `exOrm`
 Ejercicio de ORM y manejo de datos meteorológicos.  
 - **MongoConnection.java**: Singleton para la conexión a MongoDB.  
